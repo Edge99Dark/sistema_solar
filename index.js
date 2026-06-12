@@ -50,6 +50,10 @@ app.get('/neptuno', (req, res) => {
     res.render('planetas/neptuno');
 });
 
+app.get('/pluton', (req, res) => {
+    res.render('planetas/pluton');
+});
+
 const server = app.listen(PORT, () => {
     console.log(`Servidor corriendo en puerto ${PORT}`);
 });
