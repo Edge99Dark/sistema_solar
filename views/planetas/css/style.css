@@ -1,0 +1,56 @@
+body {
+    background-color: #1a1a2e;
+    color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #16213e;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid #ffaa66;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.volver {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.volver:hover {
+    text-decoration: underline;
+}
+
+/* Colores especificos para cada planeta (se usan en el h1 y .volver de cada pagina) */
+.mercurio h1, .mercurio .volver { color: #ffaa66; }
+.venus h1, .venus .volver { color: #ffaa66; }
+.tierra h1, .tierra .volver { color: #88aaff; }
+.marte h1, .marte .volver { color: #ff8866; }
+.jupiter h1, .jupiter .volver { color: #dd8844; }
+.saturno h1, .saturno .volver { color: #eedd88; }
+.urano h1, .urano .volver { color: #88ccff; }
+.neptuno h1, .neptuno .volver { color: #3366ff; }
